@@ -40,7 +40,7 @@ public class Summa implements Komento {
     }
 
     @Override
-    public void peru() {
+    public void peru() {        
         sovellus.miinus(edellinen);
         tuloskentta.setText("" + sovellus.tulos());        
     }
